@@ -1,0 +1,334 @@
+body {   
+    font-family: 'Poppins', Arial, sans-serif;
+    width: 100%;
+    height: fit-content;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden; 
+}
+
+/*Navbar*/
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /*margin: 0 2rem;*/
+}
+
+nav ul {
+    
+    font-size: 1.1rem;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding-left: 7rem;
+    gap: 3rem;
+}
+
+nav ul li {
+    gap: 0.4rem;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li a:hover{
+    color: #f05454;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 600; 
+}
+
+.download-btn {
+    background-color: #000;
+    font-size: 1rem;
+    border-radius: 8%; 
+    margin-right: 20rem;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.download-btn:hover{
+    box-shadow: 10px 10px 5px #ffa0a0 ;
+}
+/*Landing page1*/
+
+.Landing_Page1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 40px;
+    padding-left: 10rem;
+    flex-wrap: nowrap;
+    margin: 2rem;
+    
+}
+
+.column1 > h1{
+    font-family: "Montserrat", sans-serif;
+    font-size: 4rem;
+    font-weight: bold;
+    position: relative; 
+    text-shadow: 2px 2px 2px  #f05454 ; 
+    
+}
+
+.column1 > h1::before {
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: -60px;
+    width: 250px;
+    height: 200px;
+    background: radial-gradient(circle, rgba(255, 0, 0, 0.5), transparent);
+    z-index: -4; 
+    border-radius: 30%; 
+}
+
+.column1 >p{
+    font-family: 'Poppins', Arial, sans-serif;
+    color: grey;
+    
+}
+.column1 {
+    width: 55%;
+    padding-right: 20px;
+}
+
+.column2 {
+    width: 45%;
+}
+
+.download-btn1{
+   background-color: #000000;
+    font-size: 1rem;
+    border-radius: 8%; 
+    margin-right: 2rem;
+    color: #fff3f3;
+    border: none;
+    padding: 15px 30px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.video-btn{
+    font-weight: bold;
+    font-size: 1rem;
+    border: #fff;
+    color: #000;
+    background-color: #fff;
+}
+
+.title-image {
+    width: auto;
+    position: relative;
+    left: 2%;
+    height: 35rem;
+}
+
+.tag{
+    width: 34rem;height: auto;
+}
+
+
+
+/*Features*/
+
+
+.feature-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vh;
+}
+
+.half {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+}
+
+.left{
+    margin-left:5rem;
+}
+.container {
+    align-items: flex-start;
+    flex-direction: column;
+    margin: 2rem;
+    padding: 20px;
+}
+
+.phone2{
+    margin-left: 2rem;
+    height: 35rem;
+}
+
+.features {
+    color: #f05454;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.title {
+    font-family: "Montserrat", sans-serif;
+    color: #000;
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.feature-box {
+    margin: 20px 0;
+}
+
+.feature-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.feature-item i {
+    font-size: 1rem;
+    margin-right: 10px;
+    color: #f05454;
+}
+
+.feature-title {
+    color: #000;
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+.feature-description {
+    font-size: 1rem;
+    text-align: left;
+    color: #666;
+}
+
+/* Responsive Design */
+/*@media (max-width: 768px) {
+    .title {
+        font-size: 2.5rem;
+    }
+
+    .feature-title {
+        font-size: 1.2rem;
+    }
+
+    .feature-description {
+        font-size: 0.9rem;
+    }
+}
+*/
+
+
+
+/*Advantages*/
+
+
+.advantage-half-left{
+    align-items: flex-start;
+    flex-direction: column;
+   margin-left: 10rem;
+}
+.advantage-content{
+    line-height: 2;
+    font-size: 1rem;
+    color: grey;
+    text-align: left;
+}
+
+.tagline{
+    margin-top: 2.4rem;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    color: #000000;
+    gap: 1.3rem;
+}
+.tagline i {
+    margin-right: 8px; 
+}
+
+.tagline h4 {
+    font-size: 1.4rem;
+    margin: 0; 
+}
+
+.phone3{ 
+    margin-left: 4rem;
+    height: 35rem;
+}
+
+
+/*customizable*/
+
+i.customize-star{
+    font-size: 2rem;
+}
+
+.customize-title{
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.4rem;
+}
+
+.customize-description{
+    line-height: 2;
+    font-size: 1rem;
+}
+
+
+/*Testimonal*/
+
+
+.testimonal{
+    display: flex;
+    flex-direction: column;
+    height: 10rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.testimonal > h4{
+    font-size: 1.4rem;
+}
+
+.testimonal > h1{
+    text-shadow: 2px 2px 2px  #f05454 ; 
+    font-family: "Montserrat", sans-serif;
+    color: #000;
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 10px 0;   
+}
+
+.testimonal-headline{
+    font-family: "Montserrat", sans-serif;
+}
+
+.testimonal-container-half{
+    text-align: left;
+    margin: 6rem;
+}
+
+.testimonal-image{
+    height: 30rem;
+    margin-left: 5rem;
+}
